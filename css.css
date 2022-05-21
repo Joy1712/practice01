@@ -1,0 +1,211 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 正式開始 */
+/* *{outline:1px solid #000;} */
+
+a{
+	text-decoration: none;
+}
+
+.homepage{
+	width:940px;
+	margin: 0 auto;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 940px;
+	height: 40px;
+	align-items: center;
+}
+.banner{
+	margin-bottom: 60px;
+}
+
+.mainmenu{
+	display: flex;
+	height: 40px;
+	width: 319px;
+	height: 22px;
+	justify-content: space-between;
+	align-items: center;
+}
+.mainmenu a{
+	display: block;
+	color: #3F5D45;
+	font:normal normal 600 16px/73px PingFang TC;
+}
+.content{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 80px;
+}
+
+.sidemenu ul li{
+	width: 298px;
+	height: 63px;
+	background-color: white;
+	border: 1px solid #EAF0ED;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.sidemenu ul li a{
+	display: block;
+	font-size: 24px;
+	font-family: PingFang TC, Semibold;
+	font-weight: bold;
+	color:#3F5D45;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-right: 66px;
+	padding-left: 66px;
+}
+.sidemenu ul li:hover{
+	background-color:#EAF0ED;
+}
+
+
+.sidemenu h3{
+	height: 20px;
+	font-size: 24px;
+	font-family: PingFang TC, Semibold;
+	font-weight: bold;
+	color:white;
+	background-color:#3F5D45;
+	text-align: center;
+	padding: 18px;
+}
+.footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 1024px;
+	height:116px;
+	background-color: #3F5D45;
+	justify-content: center;
+}
+
+.productlist{
+	display:flex;
+	flex-wrap:wrap;
+	width: 620px;
+	justify-content: space-between;
+}
+.eachproduct{
+	width: 300px;
+	height: 436px;
+}
+
+.eachproduct{
+	position:relative;
+	margin-bottom: 20px;
+}
+.box1{
+	position:absolute;
+	top:0px;
+	left:20px;
+	width:36px;
+	text-align: center;
+	background-color: #3F5D45;
+	color: #EAF0ED;
+	justify-content: center;
+	/* z-index: 1; */
+}
+.box2{
+	position:absolute;
+	top:19px;
+	right:22px;
+	/* z-index: 2; */
+}
+
+.box1 p{
+	line-height: 20px;
+	padding: 10px;
+}
+.name{
+	height: 56px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.name p{
+	font-size: 20px;
+	text-align: center;
+	color:#3F5D45;
+	padding:14px 20px 14px 33px;
+}
+.name h3{
+	font: size 20px;
+	text-align:center;
+	color:#3F5D45;
+	padding:14px 33px 14px 33px;
+}
+.eachproduct a{
+	display: block;
+	font-size: 24px;
+	font-family: PingFang TC, Semibold;
+	font-weight: bold;
+	color:#3F5D45;
+	background-color: #EAF0ED;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-right: 90px;
+	padding-left: 90px;
+}
+
+.footer img{
+	height: 40px;
+	margin: 20px;
+}
